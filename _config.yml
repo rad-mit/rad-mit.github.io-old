@@ -7,8 +7,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <br><br>
   <a href="https://www.linkedin.com/in/rad-mit/">View My LinkedIn Profile</a> 
-  
-remote_theme: pages-themes/minimal@v0.2.0
+  <br>
+  <a href="https://www.linkedin.com/in/rad-mit/">View my CV</a> 
+
 plugins:
 - jekyll-remote-theme
 google_analytics: G-TSLPJFY8B4 # your Google Analytics tracking ID here
