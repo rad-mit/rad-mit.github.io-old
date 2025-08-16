@@ -1,24 +1,23 @@
-## News
+<!-- ## News
 
----
+--- -->
 
-## Publications
+## What's been up lately?
 
----
 
-[AeroResQ](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+["Anything that can go wrong will wrong": Arch Edition of Murphy's Law](/sample_page)
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
----
+<!-- ---
 [Ocularone](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Mobicom](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-under preparation
+under preparation -->
 
----
+<!-- ---
 
 ## Teaching Experience
 
@@ -39,5 +38,5 @@ under preparation
 under preparation
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p> -->
 <!-- Remove above link if you don't want to attibute -->
