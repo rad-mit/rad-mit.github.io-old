@@ -1,4 +1,4 @@
-## "Anything that can go wrong will wrong": Arch Edition of Murphy's Law
+## "Anything that can go wrong will wrong": Arch Linux Edition of Murphy's Law
 
 16/08/2014
 
