@@ -10,7 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <br><br>
   <a href="https://www.linkedin.com/in/rad-mit/">View my CV</a> 
-<br><br>
+  <br><br>
   <br><br>
 remote_theme: pages-themes/minimal@v0.2.0
 
