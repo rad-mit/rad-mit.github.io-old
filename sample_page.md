@@ -8,7 +8,7 @@ Having experimented with various Linux distros, starting from Debian-based Ubunt
 
 2. I have a GRUB setup, and when my laptop starts up, I see "booting in insecure mode". But it was still enabled 
 
-# cat /sys/firmware/efi/fw_platform_size
+### cat /sys/firmware/efi/fw_platform_size
 If the command returns 64, the system is booted in UEFI mode and has a 64-bit x64 UEFI.
 
 
