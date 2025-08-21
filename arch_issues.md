@@ -12,7 +12,7 @@ I found the [OG Arch Wiki guide for Installation](https://wiki.archlinux.org/tit
 The first step was to download the latest ISO image from the [Downloads Page](https://archlinux.org/download/), verifying its checksum and signatures, and then creating a "live" Arch Installer USB stick as per instructions given [here](https://wiki.archlinux.org/title/USB_flash_installation_medium). 
 
 #### Issue 1: Media not found while booting using the live USB
-I used the ```cat``` method from my Ubuntu CLI and rebooted my PC to access the UEFI settings. Once there, I selected my USB drive in the boot menu. I was returned to the UEFI menu, with the message ```media not found```.
+I used the ```cat``` method from my Ubuntu CLI and rebooted my PC to access the UEFI settings. Once there, I selected my USB drive in the boot menu. I was returned to the UEFI menu, with the message ```media not found```. I then returned to my Ubuntu, and tried with ```cp```, ```dd```, ```tee``` and [rufus](http://rufus.ie/en/) as well, but had the same issue each time. Turns out, using any kind of UI to eject the USB after flashing it with the ISO image would not work. I had to only unmount it with ```sudo umount <usb_id_from_lsblk_command>```. I had just tried this on a whim, as I couldn't find any solution online and was starting to wonder if I couldn't use my 7 years old USB anymore.
 
 2. I have a GRUB setup, and when my laptop starts up, I see a message ```booting in insecure mode``` before the GRUB menu appears. But it was still enabled 
 
