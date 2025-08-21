@@ -1,6 +1,6 @@
 ## "Anything that can go wrong will wrong": Arch Linux Edition of Murphy's Law
 
-16/08/2025
+16th June, 2025
 
 Having experimented with various Linux distros, starting from Debian-based Ubuntu and Mint to CentOS for PCs, RPiOS, L4T for developer boards such as Jetson Nano, I finally decided to start using Arch Linux (and no, I did not do it just to say I use arch, btw ;) ). I had thought basic installation would be similar to what I had worked with before, and barely expected to get stuck with it. But, Arch surprised me right from the start, and I had to encounter issues I hadn't seen earlier, which made me want to document them so that I don't forget the fixes, and for anyone else who might be on the same path as me.
 
