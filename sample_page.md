@@ -1,12 +1,20 @@
 ## "Anything that can go wrong will wrong": Arch Linux Edition of Murphy's Law
 
-16/08/2014
+16/08/2025
 
-Having experimented with various Linux distros, starting from Debian-based Ubuntu and Mint to CentOS, I finally decided to install Arch Linux (and no, I am not doing it just to say I use arch btw) on my personal laptop. 
+Having experimented with various Linux distros, starting from Debian-based Ubuntu and Mint to CentOS for PCs, RPiOS, L4T for developer boards such as Jetson Nano, I finally decided to start using Arch Linux (and no, I did not do it just to say I use arch, btw ;) ). I had thought basic installation would be similar to what I had worked with before, and barely expected to get stuck with it. But, Arch surprised me right from the start, and I had to encounter issues I hadn't seen earlier, which made me want to document them so that I don't forget the fixes, and for anyone else who might be on the same path as me.
 
-1. After flashing the USB with 
+As of now, I have a barebones CLI installation of Arch on my PC with a single root user and WiFi access which I can access from my GRUB menu during bootup, so this post covers every issue I had until then. I am yet to start ricing and make it usable for my daily tasks. Whenever I do that, there will be a part 2 to this blog post :) But until then, even just the installation was pretty fulfilling in terms of learning stuff I've never had to bother much about in the past (which is how Arch is so uniquely customizable), so highly recommended!
 
-2. I have a GRUB setup, and when my laptop starts up, I see "booting in insecure mode". But it was still enabled 
+I found the [OG Arch Wiki guide for Installation](https://wiki.archlinux.org/title/Installation_guide) as consistently the most useful resource, apart from a couple of insightful reddit posts, which I will link below.
+
+### USB Flashing and Boot into Arch
+The first step was to download the latest ISO image from the [Downloads Page](https://archlinux.org/download/), verifying its checksum and signatures, and then creating a "live" Arch Installer USB stick as per instructions given [here](https://wiki.archlinux.org/title/USB_flash_installation_medium). 
+
+#### Issue 1: Media not found while booting using the live USB
+I used the ```cat``` method from my Ubuntu CLI and rebooted my PC to access the UEFI settings. Once there, I selected my USB drive in the boot menu. I was returned to the UEFI menu, with the message ```media not found```.
+
+2. I have a GRUB setup, and when my laptop starts up, I see a message ```booting in insecure mode``` before the GRUB menu appears. But it was still enabled 
 
 ### cat /sys/firmware/efi/fw_platform_size
 If the command returns 64, the system is booted in UEFI mode and has a 64-bit x64 UEFI.
