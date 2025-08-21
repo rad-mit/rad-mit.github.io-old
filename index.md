@@ -5,8 +5,8 @@
 ## What's been up lately?
 
 
-["Anything that can go wrong will wrong": Arch Edition of Murphy's Law](/sample_page)
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+["Anything that can go wrong will go wrong": Arch Edition of Murphy's Law](/sample_page.md)
+<!-- <img src="images/dummy_thumb nail.jpg?raw=true"/> -->
 
 <!-- ---
 [Ocularone](/pdf/sample_presentation.pdf)
