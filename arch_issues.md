@@ -53,7 +53,7 @@ Once I rebooted my PC after the install and removing the live USB, I could not f
 sudo os-prober
 ```
 
-from Ubuntu CLI, identified Windows, Ubuntu and Majaro, but not Arch. The community answers suggested mounting the / (root) partition of Arch and then trying to update GRUB. So, after the following steps
+from Ubuntu CLI, identified Windows, Ubuntu and Majaro, but not Arch. Given the amount of information available online on GRUB and its depth, it took me a while to figure out the fix for this one. Finally, I found a community post that suggested mounting the / (root) partition of Arch and then trying to update GRUB. So, after the following steps
 
 ```bash
 sudo mount <arch_root_partition> /mnt
