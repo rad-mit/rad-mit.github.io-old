@@ -8,19 +8,18 @@ As of now, I have a barebones CLI installation of Arch on my PC with a single ro
 
 I found the [OG Arch Wiki guide for Installation](https://wiki.archlinux.org/title/Installation_guide) as consistently the most useful resource, apart from a couple of insightful reddit posts, which I will link below.
 
-### USB Flashing and Boot into Arch
+### 1. USB Flashing
 The first step was to download the latest ISO image from the [Downloads Page](https://archlinux.org/download/), verifying its checksum and signatures, and then creating a "live" Arch Installer USB stick as per instructions given [here](https://wiki.archlinux.org/title/USB_flash_installation_medium). 
 
 #### Issue 1: Media not found while booting using the live USB
-I used the ```cat``` method from my Ubuntu CLI and rebooted my PC to access the UEFI settings. Once there, I selected my USB drive in the boot menu. I was returned to the UEFI menu, with the message ```media not found```. I then returned to my Ubuntu, and tried with ```cp```, ```dd```, ```tee``` and [rufus](http://rufus.ie/en/) as well, but had the same issue each time. Turns out, using any kind of UI to eject the USB after flashing it with the ISO image would not work. I had to only unmount it with ```sudo umount <usb_id_from_lsblk_command>```. I had just tried this on a whim, as I couldn't find any solution online and was starting to wonder if I couldn't use my 7 years old USB anymore.
+I used the ```cat``` method from my Ubuntu CLI and rebooted my PC to access the UEFI settings. Once there, I selected my USB drive in the boot menu. I was returned to the UEFI menu, with the message ```media not found```. I then returned to my Ubuntu, and tried with ```cp```, ```dd```, ```tee``` and [rufus](http://rufus.ie/en/) as well, but had the same issue each time. Turns out, using any UI to eject the USB after flashing it with the ISO image would not work. I had to only unmount it with ```sudo umount <usb_id_from_lsblk_command>```. I had just tried this on a whim, as I couldn't find any solution online and was starting to wonder if my 7 years old USB stick was the problem. I concluded that it had something to do with the file not really getting copied to the USB, but to a memory cache, as described in an answer here [here](https://www.linux.org/threads/unmount-vs-eject.27273/).
 
-2. I have a GRUB setup, and when my laptop starts up, I see a message ```booting in insecure mode``` before the GRUB menu appears. But it was still enabled 
-
-### cat /sys/firmware/efi/fw_platform_size
-If the command returns 64, the system is booted in UEFI mode and has a 64-bit x64 UEFI.
-
+### 2. Boot into Arch
+#### Issue 2: Enabled Secure Boot
+After the above step, I still could not boot into the live USB, with a message that secure boot was enabled. However, I remember turning off secure boot a long time ago and have always observed the message "booting in insecure mode" whenever my PC turns on, even before the GRUB menu appears. Anyways, I decided to recheck the UEFI settings and there it was, secure boot was actually enabled so I fixed that and moved along.
 
 
+### 3. 
    
 
 <!-- **Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
