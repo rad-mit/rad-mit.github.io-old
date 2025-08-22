@@ -46,19 +46,19 @@ Once all this was fixed, I continued to follow the installation guide until the 
 
 ## 3. First Boot into Installed Arch and Login with Root User
 
-Once I rebooted my PC, I could not find an entry in the grub menu for Arch, it needed to be added. After reading a couple of articles and posts linked below, I tried to run 
+Once I rebooted my PC, I could not find an entry in the grub menu for Arch. Running
 
 ```bash
 sudo os-prober
 ```
 
-from Ubuntu CLI. OS prober identified Windows, Ubuntu and Majaro, but not Arch. The community answers suggested mounting the / partition of Arch to a mount point such as /mnt and then trying to update grub. So, I did the following two steps, before rebooting my PC.
+from Ubuntu CLI, identified Windows, Ubuntu and Majaro, but not Arch. The community answers suggested mounting the / (root) partition of Arch and then trying to update GRUB. So, after the following steps
 
 ```bash
 sudo mount <arch_root_partition> /mnt
 sudo update-grub
 ```
-Following these steps and rebooting, I could find an entry for Arch in the GRUB menu, and could access its CLI.
+and rebooting, I could find an entry for Arch in the GRUB menu, and could access its CLI as well.
 
 Some helpful articles that explain GRUB, and adding Arch to an existing GRUB installation:
 - https://www.rodsbooks.com/efi-bootloaders/grub2.html
@@ -68,4 +68,4 @@ Some helpful articles that explain GRUB, and adding Arch to an existing GRUB ins
 
 
 ## Conclusion
-Arch is equal parts frustrating and rewarding—but that’s also what makes it worth using. And this is just the beginning. Stay tuned for part 2, when I finally get around to ricing and turning this barebones install into a usable daily driver.
+Arch is already equal parts frustrating and rewarding for me, but that’s also what makes it worth using. And this is just the beginning. Stay tuned for part 2, when I finally get around to ricing and turning this barebones install into a usable daily driver.
