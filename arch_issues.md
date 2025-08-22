@@ -46,7 +46,8 @@ Once all this was fixed, I continued to follow the installation guide until the 
 
 ## 3. First Boot into Installed Arch and Login with Root User
 
-Once I rebooted my PC, I could not find an entry in the grub menu for Arch. Running
+### Issue 3: Missing Boot Entry for Arch in GRUB menu
+Once I rebooted my PC after the install and removing the live USB, I could not find an entry in the GRUB menu for Arch. Running
 
 ```bash
 sudo os-prober
