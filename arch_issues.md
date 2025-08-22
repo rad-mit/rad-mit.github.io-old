@@ -62,10 +62,10 @@ sudo update-grub
 and rebooting, I could find an entry for Arch in the GRUB menu, and could access its CLI as well.
 
 Some helpful articles that explain GRUB, and adding Arch to an existing GRUB installation:
-- https://www.rodsbooks.com/efi-bootloaders/grub2.html
-- https://superuser.com/questions/1643965/trying-to-add-arch-linux-to-a-uefi-hard-drive-with-ubuntu-debian-and-grub-alre
-- https://bbs.archlinux.org/viewtopic.php?id=276281
-- https://wiki.archlinux.org/title/GRUB
+- [Some info on GRUB 2](https://www.rodsbooks.com/efi-bootloaders/grub2.html)
+- [Someone with the same problem as me](https://superuser.com/questions/1643965/trying-to-add-arch-linux-to-a-uefi-hard-drive-with-ubuntu-debian-and-grub-alre)
+- [This one actually suggests the mount fix](https://bbs.archlinux.org/viewtopic.php?id=276281)
+- [GRUB on Arch Wiki](https://wiki.archlinux.org/title/GRUB)
 
 
 ## Conclusion
