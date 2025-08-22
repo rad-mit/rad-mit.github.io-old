@@ -2,7 +2,7 @@
 
 **16th June, 2025**
 
-Having wprked with various Linux distros, from Debian-based Ubuntu and Mint to CentOS for PCs, RPiOS, and NVIDIA’s L4T for Jetson Nano, I finally decided to start using Arch Linux (And no, not *just* so I can say “I use Arch, btw” 😉), something I have been wanting to do for years.
+Having worked with various Linux distros, from Debian-based Ubuntu and Mint to CentOS for PCs, RPiOS, and NVIDIA’s L4T for Jetson Nano, I finally decided to start using Arch Linux (And no, not *just* so I can say “I use Arch, btw” 😉), something I have been wanting to do for years.
 
 I assumed installation would be similar to what I’d done before and didn’t expect to get stuck early on. But Arch had other plans. I ran into issues I had never faced before, and in true Murphy’s Law fashion, *anything that could go wrong did go wrong*, enough that I decided to document them here. Hopefully, this helps future me (and anyone else walking down this path) remember the fixes.  
 
