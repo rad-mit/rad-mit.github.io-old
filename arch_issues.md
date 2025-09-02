@@ -1,4 +1,4 @@
-![image](images/20250901_2215_Arch Linux Murphy's Law_remix_01k4436m5hevh86z3mpw8f237e.png)
+! [image](images/20250901_2215_Arch Linux Murphy's Law_remix_01k4436m5hevh86z3mpw8f237e.png)
 
 # "Anything That Can Go Wrong Will Go Wrong": Arch Linux Edition of Murphy's Law
 
