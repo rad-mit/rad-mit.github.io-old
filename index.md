@@ -6,6 +6,8 @@
 
 
 ["Anything that can go wrong will go wrong": Arch Linux Edition of Murphy's Law](/arch_issues.md)
+
+<img src="images/dummy_thumb nail.jpg?raw=true"/>
 <!-- <img src="images/dummy_thumb nail.jpg?raw=true"/> -->
 
 <!-- ---
