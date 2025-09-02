@@ -5,7 +5,9 @@
 ## What's been up lately?
 
 
-["Anything that can go wrong will go wrong": Arch Linux Edition of Murphy's Law](/arch_issues.md)
+<!-- ["Anything that can go wrong will go wrong": Arch Linux Edition of Murphy's Law](/arch_issues.md) -->
+
+[<img src="images/20250901_2215_Arch Linux Murphy's Law_remix_01k4436m5hevh86z3mpw8f237e.png">](/arch_issues.md)
 
 <img src="images/dummy_thumb nail.jpg?raw=true"/>
 <!-- <img src="images/dummy_thumb nail.jpg?raw=true"/> -->
